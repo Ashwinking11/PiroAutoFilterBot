@@ -30,9 +30,9 @@ BOT_START_TIME = time()
 
 # Bot images & videos
 PICS = (environ.get('PICS', 'https://graph.org/file/82c123f99ea26068b2feb.jpg https://graph.org/file/708f862d22821d4245916.jpg https://graph.org/file/f44e4918d981a7729ebe6.jpg')).split()
-REQ_PICS = (environ.get('REQ_PICS', 'https://graph.org/file/5cb80fa6096997b7226b3.jpg')).split()
+REQ_PICS = (environ.get('REQ_PICS', 'https://graph.org/file/d4ca5a2a8bcc9ab55ba6e.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/0593a3103ba1b9a5855bf.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/72dff2b65352ba85d0a34.mp4")
+MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/54e371fabd66df8a26def.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/2a888a370f479f4338f7c.jpg")
 
 # Admins, Channels & Users
@@ -60,7 +60,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001920843740'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'FilmClan')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'FilmClan_Group')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
