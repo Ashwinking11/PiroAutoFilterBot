@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/FilmClan/PiroAutoFilterBot",
-    "repository": "https://github.com/FilmClan/PiroAutoFilterBot",
+    "website": "https://github.com/Maheshbox/PiroAutoFilterBot",
+    "repository": "https://github.com/Maheshbox/PiroAutoFilterBot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
