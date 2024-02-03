@@ -33,7 +33,7 @@ PICS = (environ.get('PICS', 'https://graph.org/file/c33108e606e418468d675.jpg ht
 REQ_PICS = (environ.get('REQ_PICS', 'https://graph.org/file/c33108e606e418468d675.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/ce22c8888b55e4d11cdbc.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/c063e6a04206ba79d1eaa.mp4")
-SPELL_IMG = environ.get("SPELL_IMG", "")
+SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/ce22c8888b55e4d11cdbc.jpg")
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6302537270').split()]
