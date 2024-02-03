@@ -31,7 +31,7 @@ BOT_START_TIME = time()
 # Bot images & videos
 PICS = (environ.get('PICS', 'https://graph.org/file/82c123f99ea26068b2feb.jpg https://graph.org/file/708f862d22821d4245916.jpg https://graph.org/file/f44e4918d981a7729ebe6.jpg')).split()
 REQ_PICS = (environ.get('REQ_PICS', 'https://graph.org/file/c33108e606e418468d675.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "NOR_IMG")
+NOR_IMG = environ.get("NOR_IMG", "https://t.me/+OCIj2yeIOjZiYjc9")
 MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/c063e6a04206ba79d1eaa.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/ce22c8888b55e4d11cdbc.jpg")
 
