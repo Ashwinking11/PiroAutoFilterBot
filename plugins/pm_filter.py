@@ -1489,6 +1489,7 @@ async def auto_filter(client, msg, spoll=False):
             await asyncio.sleep(300)
             await fuk.delete()
             await message.delete()
+
 async def advantage_spell_chok(msg):
     search = msg.text.replace(" ", "+")
     btn = [[
@@ -1498,7 +1499,7 @@ async def advantage_spell_chok(msg):
         ),
             InlineKeyboardButton(
             text="ɢᴏᴏɢʟᴇ",
-            url=f"https://google.com/search?q={search}"
+            url=f"https://www.google.com/search?q={reqst_gle}")
         )
     ]]
     spl = await msg.reply(
