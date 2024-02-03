@@ -634,16 +634,16 @@ async def requests(bot, message):
         try:
             if REQST_CHANNEL is not None:
                 btn = [[
-                        InlineKeyboardButton('📥 𝖵𝗂𝖾𝗐 𝖱𝖾𝗊𝗎𝖾𝗌𝗍 📥', url=f"{message.reply_to_message.link}"),
-                        InlineKeyboardButton('📝 𝖲𝗁𝗈𝗐 𝖮𝗉𝗍𝗂𝗈𝗇𝗌 📝', callback_data=f'show_option#{reporter}')
+                        InlineKeyboardButton('📥 ᴠɪᴇᴡ ʀᴇQᴜᴇꜱᴛ 📥', url=f"{message.reply_to_message.link}"),
+                        InlineKeyboardButton('📝 ꜱʜᴏᴡ ᴏᴘᴛɪᴏɴꜱ 📝', callback_data=f'show_option#{reporter}')
                       ]]
                 reported_post = await bot.send_message(chat_id=REQST_CHANNEL, text=f"<b>𝖱𝖾𝗉𝗈𝗋𝗍𝖾𝗋 : {mention} ({reporter})\n\n𝖬𝖾𝗌𝗌𝖺𝗀𝖾 : {content}</b>", reply_markup=InlineKeyboardMarkup(btn))
                 success = True
             elif len(content) >= 3:
                 for admin in ADMINS:
                     btn = [[
-                        InlineKeyboardButton('📥 𝖵𝗂𝖾𝗐 𝖱𝖾𝗊𝗎𝖾𝗌𝗍 📥', url=f"{message.reply_to_message.link}"),
-                        InlineKeyboardButton('📝 𝖲𝗁𝗈𝗐 𝖮𝗉𝗍𝗂𝗈𝗇𝗌 📝', callback_data=f'show_option#{reporter}')
+                        InlineKeyboardButton('📥 ᴠɪᴇᴡ ʀᴇQᴜᴇꜱᴛ 📥', url=f"{message.reply_to_message.link}"),
+                        InlineKeyboardButton('📝 ꜱʜᴏᴡ ᴏᴘᴛɪᴏɴꜱ 📝', callback_data=f'show_option#{reporter}')
                       ]]
                     reported_post = await bot.send_message(chat_id=admin, text=f"<b>𝖱𝖾𝗉𝗈𝗋𝗍𝖾𝗋 : {mention} ({reporter})\n\n𝖬𝖾𝗌𝗌𝖺𝗀𝖾 : {content}</b>", reply_markup=InlineKeyboardMarkup(btn))
                     success = True
@@ -669,16 +669,16 @@ async def requests(bot, message):
         try:
             if REQST_CHANNEL is not None and len(content) >= 3:
                 btn = [[
-                        InlineKeyboardButton('📥 𝖵𝗂𝖾𝗐 𝖱𝖾𝗊𝗎𝖾𝗌𝗍 📥', url=f"{message.link}"),
-                        InlineKeyboardButton('📝 𝖲𝗁𝗈𝗐 𝖮𝗉𝗍𝗂𝗈𝗇𝗌 📝', callback_data=f'show_option#{reporter}')
+                        InlineKeyboardButton('📥 ᴠɪᴇᴡ ʀᴇQᴜᴇꜱᴛ 📥', url=f"{message.link}"),
+                        InlineKeyboardButton('📝 ꜱʜᴏᴡ ᴏᴘᴛɪᴏɴꜱ 📝', callback_data=f'show_option#{reporter}')
                       ]]
                 reported_post = await bot.send_message(chat_id=REQST_CHANNEL, text=f"<b>𝖱𝖾𝗉𝗈𝗋𝗍𝖾𝗋 : {mention} ({reporter})\n\n𝖬𝖾𝗌𝗌𝖺𝗀𝖾 : {content}</b>", reply_markup=InlineKeyboardMarkup(btn))
                 success = True
             elif len(content) >= 3:
                 for admin in ADMINS:
                     btn = [[
-                        InlineKeyboardButton('📥 𝖵𝗂𝖾𝗐 𝖱𝖾𝗊𝗎𝖾𝗌𝗍 📥', url=f"{message.link}"),
-                        InlineKeyboardButton('📝 𝖲𝗁𝗈𝗐 𝖮𝗉𝗍𝗂𝗈𝗇𝗌 📝', callback_data=f'show_option#{reporter}')
+                        InlineKeyboardButton('📥 ᴠɪᴇᴡ ʀᴇQᴜᴇꜱᴛ 📥', url=f"{message.link}"),
+                        InlineKeyboardButton('📝 ꜱʜᴏᴡ ᴏᴘᴛɪᴏɴꜱ 📝', callback_data=f'show_option#{reporter}')
                       ]]
                     reported_post = await bot.send_message(chat_id=admin, text=f"<b>𝖱𝖾𝗉𝗈𝗋𝗍𝖾𝗋 : {mention} ({reporter})\n\n𝖬𝖾𝗌𝗌𝖺𝗀𝖾 : {content}</b>", reply_markup=InlineKeyboardMarkup(btn))
                     success = True
@@ -696,7 +696,7 @@ async def requests(bot, message):
     
     if success:
         btn = [[
-                InlineKeyboardButton('📥 𝖵𝗂𝖾𝗐 𝖱𝖾𝗊𝗎𝖾𝗌𝗍 📥', url=f"{reported_post.link}")
+                InlineKeyboardButton('📥 ᴠɪᴇᴡ ʀᴇQᴜᴇꜱᴛ 📥', url=f"{reported_post.link}")
               ]]
         await message.reply_text("<b>Your request has been added! Please wait for some time.</b>", reply_markup=InlineKeyboardMarkup(btn))
 
