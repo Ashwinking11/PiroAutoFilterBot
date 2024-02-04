@@ -17,7 +17,7 @@ class script(object):
 ○ ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ  
 ○ ꜱᴇʀᴠᴇʀ : ᴄᴏɴᴛᴀʙᴏ
 ○ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com'>ᴍᴏɴɢᴏ ᴅʙ</a>
-○ ʙᴜɪʟᴅ ꜱᴛᴀᴛᴜꜱ : v1.0.1 [BeTa]
+○ ʙᴜɪʟᴅ ꜱᴛᴀᴛᴜꜱ : v1.0.1 [ʙᴇᴛᴀ]
 ○ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href='https://t.me/FilmClan_Group'>ᴛᴀᴘ ʜᴇʀᴇ</a>"""
     
     SOURCE_TXT = """<b>NOTE:</b>
