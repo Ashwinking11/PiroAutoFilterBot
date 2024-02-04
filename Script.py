@@ -11,14 +11,14 @@ class script(object):
 
 ♤ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs."""
 
-    ABOUT_TXT = """<b>○ 𝖬𝗒 𝖭𝖺𝗆𝖾: {}
-○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/Maidi_King'>𒆜 ᴍᴀɪᴅɪ⋆ᴋɪɴɢ ࿐</a>
-○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : 𝖯𝗒𝗍𝗁𝗈𝗇 𝟥
-○ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : 𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 𝖺𝗌𝗒𝗇𝖼𝗂𝗈 𝟢.𝟣𝟩.𝟣  
-○ 𝖲𝖾𝗋𝗏𝖾𝗋 : Contabo
-○ 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾 : <a href='https://www.mongodb.com'>𝖬𝗈𝗇𝗀𝗈𝖣𝖡 𝖥𝗋𝖾𝖾 𝖳𝗂𝖾𝗋</a>
-○ 𝖡𝗎𝗂𝗅𝖽 𝖲𝗍𝖺𝗍𝗎𝗌 : v1.0.1 [BeTa]
-○ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉 : <a href='https://t.me/FilmClan_Group'>𝖳𝖺𝗉 𝖧𝖾𝗋𝖾</a>"""
+    ABOUT_TXT = """<b>○ ᴍʏ ɴᴀᴍᴇ: {}
+○ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/Maidi_King'>𒆜 ᴍᴀɪᴅɪ⋆ᴋɪɴɢ ࿐</a>
+○ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 3
+○ ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ  
+○ ꜱᴇʀᴠᴇʀ : ᴄᴏɴᴛᴀʙᴏ
+○ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com'>ᴍᴏɴɢᴏ ᴅʙ</a>
+○ ʙᴜɪʟᴅ ꜱᴛᴀᴛᴜꜱ : v1.0.1 [BeTa]
+○ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href='https://t.me/FilmClan_Group'>ᴛᴀᴘ ʜᴇʀᴇ</a>"""
     
     SOURCE_TXT = """<b>NOTE:</b>
 Special Thanks to FilmClan Devs & Cloners for the codes 
